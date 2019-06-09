@@ -1,0 +1,146 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/David/Documents/OS/Assignment 5/main.c
+tcp_functions.h
+/Users/David/Documents/OS/Assignment 5/tcp_functions.h
+structures.h
+/Users/David/Documents/OS/Assignment 5/structures.h
+server.h
+/Users/David/Documents/OS/Assignment 5/server.h
+server.c
+/Users/David/Documents/OS/Assignment 5/server.c
+
+/Users/David/Documents/OS/Assignment 5/server.c
+server.h
+/Users/David/Documents/OS/Assignment 5/server.h
+tcp_functions.h
+/Users/David/Documents/OS/Assignment 5/tcp_functions.h
+structures.h
+/Users/David/Documents/OS/Assignment 5/structures.h
+
+/Users/David/Documents/OS/Assignment 5/server.h
+stdio.h
+-
+errno.h
+-
+stdlib.h
+-
+unistd.h
+-
+pthread.h
+-
+syslog.h
+-
+string.h
+-
+time.h
+-
+sys/types.h
+-
+sys/socket.h
+-
+sys/select.h
+-
+sys/wait.h
+-
+netdb.h
+-
+event2/event.h
+-
+tcp_functions.h
+/Users/David/Documents/OS/Assignment 5/tcp_functions.h
+structures.h
+/Users/David/Documents/OS/Assignment 5/structures.h
+
+/Users/David/Documents/OS/Assignment 5/structures.c
+stdlib.h
+-
+structures.h
+/Users/David/Documents/OS/Assignment 5/structures.h
+
+/Users/David/Documents/OS/Assignment 5/structures.h
+event2/event.h
+-
+
+/Users/David/Documents/OS/Assignment 5/tcp_functions.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+errno.h
+-
+sys/types.h
+-
+sys/socket.h
+-
+netdb.h
+-
+syslog.h
+-
+tcp_functions.h
+/Users/David/Documents/OS/Assignment 5/tcp_functions.h
+
+/Users/David/Documents/OS/Assignment 5/tcp_functions.h
+unistd.h
+-
+
+/usr/local/Cellar/libevent/2.1.8/include/event2/event-config.h
+
+/usr/local/Cellar/libevent/2.1.8/include/event2/event.h
+event2/visibility.h
+-
+event2/event-config.h
+-
+sys/types.h
+-
+sys/time.h
+-
+stdio.h
+-
+event2/util.h
+-
+
+/usr/local/Cellar/libevent/2.1.8/include/event2/util.h
+event2/visibility.h
+-
+event2/event-config.h
+-
+sys/time.h
+-
+stdint.h
+-
+inttypes.h
+-
+sys/types.h
+-
+stddef.h
+-
+BaseTsd.h
+-
+stdarg.h
+-
+netdb.h
+-
+winsock2.h
+-
+ws2tcpip.h
+-
+errno.h
+-
+sys/socket.h
+-
+time.h
+-
+
+/usr/local/Cellar/libevent/2.1.8/include/event2/visibility.h
+event2/event-config.h
+-
+

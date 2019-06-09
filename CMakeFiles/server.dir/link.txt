@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/cc  -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/server.dir/server.c.o CMakeFiles/server.dir/tcp_functions.c.o CMakeFiles/server.dir/structures.c.o CMakeFiles/server.dir/main.c.o  -o server  -L/usr/local/Cellar/libevent/2.1.8/lib -Wl,-rpath,/usr/local/Cellar/libevent/2.1.8/lib -levent 

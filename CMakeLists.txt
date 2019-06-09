@@ -1,0 +1,12 @@
+cmake_minimum_required(VERSION 2.6)
+project(SERVER C)
+find_package(PkgConfig)
+pkg_check_modules(LIBEVENT REQUIRED libevent)
+include_directories(${LIBEVENT_INCLUDE_DIRS})
+link_directories(${LIBEVENT_LIBRARY_DIRS})
+add_executable(server server.c tcp_functions.c structures.c main.c)
+target_link_libraries(server ${LIBEVENT_LIBRARIES})
+
+if(CMAKE_COMPILER_IS_GNUCC)
+	add_definitions(--std=c99 -Wall)
+endif()
